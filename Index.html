@@ -3,44 +3,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GaMonix | Oficial</title>
+    <title>GaMonix | Ecossistema Digital Oficial 🏆</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Bem-vindo à GaMonix, o ecossistema digital que une Games e Criptomoedas. Conheça o Penalty Pay, anuncie em nosso portal e descubra ferramentas inovadoras.">
+    <meta name="keywords" content="GaMonix, Penalty Pay, Cripto Games, Litecoin, Anúncios Digitais">
+    <meta name="author" content="GaMonix Group">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://gamonix.com.br/">
+    <meta property="og:title" content="GaMonix | Ecossistema Digital Oficial 🏆">
+    <meta property="og:description" content="O hub oficial da GaMonix. Games, Cripto e Ferramentas Digitais em um só lugar.">
+    <meta property="og:image" content="https://penaltypay.com.br/banner-penalty.png">
+
+    <!-- Favicon Embutido (Ícone "G" Neon) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImdyYWQiIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyZWNjNzE7c3RvcC1vcGFjaXR5OjEiIC8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdHlsZT0ic3RvcC1jb2xvcjojMzQ5OGRiO3N0b3Atb3BhY2l0eToxIiAvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxjaXJjbGUgY3g9IjUwIiBjeT0iNTAiIHI9IjQ4IiBmaWxsPSIjMTExIiBzdHJva2U9InVybCgjZ3JhZCkiIHN0cm9rZS13aWR0aD0iNCIvPjx0ZXh0IHg9IjUwIiB5PSI2OCIgZm9udC1mYW1pbHk9IkFyaWFsIEJsYWNrIiBmb250LXNpemU9IjYwIiBmaWxsPSJ1cmwoI2dyYWQpIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5HPC90ZXh0PjxyZWN0IHg9IjU1IiB5PSI0NSIgd2lkdGg9IjIwIiBoZWlnaHQ9IjgiIGZpbGw9InVybCgjZ3JhZCkiLz48L3N2Zz4K">
+
     <style>
-        body { background-color: #000; color: #fff; font-family: sans-serif; margin: 0; text-align: center; display: flex; align-items: center; justify-content: center; min-height: 100vh; }
-        .container { padding: 40px 20px; width: 100%; max-width: 400px; }
-        .logo { color: #ffd700; font-size: 38px; font-weight: bold; margin-bottom: 5px; letter-spacing: 2px; }
-        .tagline { color: #555; font-size: 12px; text-transform: uppercase; margin-bottom: 40px; }
-        .link-btn { background: #111; border: 1px solid #333; padding: 22px; border-radius: 15px; margin-bottom: 18px; display: block; text-decoration: none; transition: 0.3s; position: relative; }
-        .link-btn:hover { border-color: #ffd700; transform: scale(1.02); }
-        .link-btn h3 { margin: 0; color: #fff; font-size: 18px; }
-        .link-btn p { margin: 8px 0 0; color: #666; font-size: 12px; }
-        .badge { position: absolute; top: 12px; right: 12px; background: #ffd700; color: #000; font-size: 10px; padding: 2px 8px; border-radius: 5px; font-weight: bold; }
-        .footer { margin-top: 50px; color: #222; font-size: 10px; }
+        * { box-sizing: border-box; }
+        body { 
+            background-color: #000; 
+            color: #fff; 
+            font-family: 'Segoe UI', Roboto, sans-serif; 
+            margin: 0; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            min-height: 100vh;
+            background: radial-gradient(circle at center, #0a0a0a 0%, #000 100%);
+        }
+        .container { padding: 40px 20px; width: 100%; max-width: 420px; text-align: center; }
+        
+        .logo { 
+            color: #ffd700; 
+            font-size: 42px; 
+            font-weight: 900; 
+            margin-bottom: 5px; 
+            letter-spacing: 4px;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.4);
+        }
+        .tagline { color: #888; font-size: 11px; text-transform: uppercase; margin-bottom: 40px; letter-spacing: 2px; line-height: 1.5; }
+        
+        .link-btn { 
+            background: rgba(20, 20, 20, 0.8); 
+            border: 1px solid #222; 
+            padding: 24px; 
+            border-radius: 20px; 
+            margin-bottom: 18px; 
+            display: block; 
+            text-decoration: none; 
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); 
+            position: relative;
+            overflow: hidden;
+            text-align: left;
+        }
+        .link-btn:hover { 
+            border-color: #ffd700; 
+            transform: translateY(-3px); 
+            background: rgba(30, 30, 30, 0.9);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+        .link-btn h3 { margin: 0; color: #fff; font-size: 20px; font-weight: 700; }
+        .link-btn p { margin: 8px 0 0; color: #aaa; font-size: 13px; line-height: 1.4; }
+        
+        .badge { 
+            position: absolute; 
+            top: 15px; 
+            right: 15px; 
+            background: #ffd700; 
+            color: #000; 
+            font-size: 10px; 
+            padding: 4px 10px; 
+            border-radius: 6px; 
+            font-weight: 800; 
+            text-transform: uppercase;
+        }
+
+        .partners-section {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #111;
+        }
+        .partners-title {
+            color: #444;
+            font-size: 10px;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+        }
+        .partners-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .partner-link {
+            background: #080808;
+            border: 1px solid #151515;
+            padding: 15px;
+            border-radius: 12px;
+            text-decoration: none;
+            transition: 0.3s;
+            text-align: center;
+        }
+        .partner-link:hover { border-color: #3498db; background: #111; }
+        .partner-link span { color: #fff; font-size: 14px; font-weight: 600; display: block; }
+        .partner-link small { color: #555; font-size: 10px; }
+
+        .footer { margin-top: 40px; color: #333; font-size: 11px; font-weight: 500; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="logo">GAMONIX</div>
-        <div class="tagline">Ecossistema Digital • 2026</div>
+        <div class="tagline">Os melhores Games do Ano, mas se é GAMONIX eu Gaamo!!! 😂</div>
 
+        <!-- Links Principais -->
         <a href="https://penaltypay.com.br" class="link-btn">
-            <span class="badge">JOGAR</span>
-            <h3>PenaltyPay</h3>
-            <p>Marque gols e ganhe recompensas LTC</p>
+            <span class="badge" style="background:#ffd700">JOGAR</span>
+            <h3>Penalty Pay</h3>
+            <p>Simulador oficial. Marque gols e ganhe recompensas em Litecoin (LTC).</p>
         </a>
 
         <a href="https://anuncie.gamonix.com.br/" class="link-btn">
-            <span class="badge" style="background:#2ecc71">BUSINESS</span>
+            <span class="badge" style="background:#2ecc71; color: #fff;">ANUNCIE</span>
             <h3>Portal de Banners</h3>
-            <p>Anuncie por R$ 20,00 mensais</p>
+            <p>Visibilidade máxima para seu projeto. Valor Promocional: R$ 20,00/mês.</p>
         </a>
 
-        <div class="link-btn" style="opacity: 0.3;">
-            <span class="badge" style="background:#444">BREVE</span>
-            <h3>SnakePix</h3>
-            <p>O clássico com pagamentos via Pix</p>
+        <div class="link-btn" style="opacity: 0.7; border: 1px dashed #ff4444; cursor: default;">
+            <span class="badge" style="background:#ff4444; color: #fff;">EM BREVE</span>
+            <h3 style="color: #ff4444;">Battle Royale</h3>
+            <p>O combate definitivo. Projeto ultra-secreto em desenvolvimento!</p>
         </div>
 
-        <div class="footer">© 2026 GaMonix Group</div>
+        <!-- Banner GAMONEY para Parceiros -->
+        <div style="margin-top: 40px; padding: 20px; border: 2px solid #ffd700; border-radius: 20px; background: linear-gradient(145deg, #111, #000);">
+            <h4 style="color:#ffd700; margin: 0 0 10px 0; font-size: 14px; letter-spacing: 2px;">PROGRAMA GAMONEY</h4>
+            <p style="font-size: 11px; color: #ccc; margin-bottom: 15px;">Seja um parceiro oficial! Copie o código abaixo e exiba nosso banner em seu site.</p>
+            
+            <div style="background: #1a1a1a; padding: 10px; border-radius: 10px; font-family: monospace; font-size: 9px; color: #ffd700; overflow-x: auto; white-space: nowrap; margin-bottom: 15px; border: 1px solid #333;">
+                &lt;a href="https://gamonix.com.br"&gt;&lt;img src="https://penaltypay.com.br/banner-gamonix.png" alt="GaMonix Partner"&gt;&lt;/a&gt;
+            </div>
+
+            <button onclick="contactPartner()" style="background: #ffd700; color: #000; border: none; padding: 12px 20px; border-radius: 10px; font-weight: bold; cursor: pointer; width: 100%; transition: 0.3s;">
+                QUERO SER PARCEIRO
+            </button>
+        </div>
+
+        <!-- Seção de Parceiros Estratégicos -->
+        <div class="partners-section">
+            <div class="partners-title">Rede de Parceiros</div>
+            <div class="partners-grid">
+                <div class="partner-link" style="border-style: dashed; cursor: pointer;" onclick="contactPartner()">
+                    <span>Sua Marca</span>
+                    <small>Seja um Parceiro</small>
+                </div>
+                <div class="partner-link" style="border-style: dashed; cursor: pointer;" onclick="contactPartner()">
+                    <span>Anuncie Aqui</span>
+                    <small>Espaço Reservado</small>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">© 2026 GaMonix Group • Built for the Future</div>
     </div>
+
+    <script>
+        function contactPartner() {
+            const msg = encodeURIComponent("Olá! Tenho interesse em ser um parceiro da GaMonix. Segue o meu banner em HTML e o link do meu site/blog:");
+            const phone = "639708927961";
+            const url = `https://wa.me/\({phone}?text=\){msg}`;
+            
+            alert("Envie seu banner em HTML com link do seu site/blog para o nosso WhatsApp que abrirá a seguir.");
+            window.location.href = url;
+        }
+    </script>
 </body>
 </html>
